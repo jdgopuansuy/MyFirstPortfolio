@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b5934f47a1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- LANDING PAGE/SECTION -->
+    <div class="banner">
+        <div class="content">
+            <img src="images/profilepic.jpg" class="profilepic">
+            <div class="openingmsg">
+                <img src="images/JDG.PNG" class="brandlogo">
+                <h3>An aspiring full-stack web developer.</h3>
+                <p>"A day without learning something new, is a day in your life wasted."</p>
+                <div class="content-btn">
+                    <button type="button"><span></span><a href="#about">Know Me More</a></button>
+                    <button type="button"><span></span><a href="#projects">See Projects</a></button>
+                    <button type="button"><span></span><a href="#connect">Connect with Me</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#projects"><i class="fa-solid fa-folder-open"></i></a></li>
+                <li><a href="#about"><i class="fa-solid fa-user"></i></a></li>
+                <li><a href="#connect"><i class="fa-solid fa-address-card"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- ABOUT ME SECTION -->
+    <div class="about" id="about">
+        <div class="section-title">
+            <h1>About Me</h1>
+        </div>
+        <div class="infos">
+            <div class="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>
+                        <h4>KodeGoPH | Full-Stack Web Developer</h4>
+                    </li>
+                    <br>
+                    <li>
+                        <h4>Magsaysay Institute of Culinary Arts - Manila | Culinary Arts</h4>
+                    </li>
+                    <br>
+                    <li>
+                        <h4>De La Salle - College of St. Benilde | AB-Music Production</h4>
+                    </li>
+                </ul>
+            </div>
+            <div class="Workexp">
+                <h2>Roles and Experiences</h2>
+                <ul>
+                    <li>
+                        <h4>Freelance Data Analyst</h4>
+                        <p>Creates google sheets and dashboards for weekly business reviews</p>
+                        <p>Utilizes Query for sheet creations and data analytics</p>
+                    </li>
+                    <br>
+                    <li>
+                        <h4>Customer Support Specialist</h4>
+                        <p>Delivers quality customer support via phone, email and chat</p>
+                        <p>Handles order processing, modification, tracking, returns and refunds</p>
+                    </li>
+                    <br>
+                    <li>
+                        <h4>Technical Support Advisor 1</h4>
+                        <p>Resolved technical issues both software and hardware for Internet, phone and TV at first
+                            point of contact</p>
+                        <p>Documented actions and ensured legal compliance with handling billing and accounts</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- PROJECT SECTION -->
+    <div class="projects" id="projects">
+        <div class="section-title">
+            <h1>Live Projects</h1>
+        </div>
+        <div class="cards col-12">
+            <div class="box-1 col-4">
+                <a href="https://jdgopuansuy.github.io/TheReadingNook/"><img src="images/trnlogo.png"></a>
+            </div>
+            <div class="box-2 col-4">
+                <img src="images/JDG-with-browser-p.PNG">
+            </div>
+            <div class="box-3 col-4">
+                <a href="https://jdgopuansuy.github.io/WeightConverter/"><img src="images/weight-converter-img.jpg"></a>
+            </div>
+        </div>
+    </div>
+    <!-- CONTACT ME SECTION -->
+    <div class="connect" id="connect">
+        <div class="socmed">
+            <div class="handles">
+                <i class="fa-brands fa-facebook-messenger"></i>
+                JDGopuansuy
+            </div>
+            <div class="handles">
+                <i class="fa-brands fa-instagram"></i>
+                JDa.YapThatsMe
+            </div>
+            <div class="handles">
+                <i class="fa-brands fa-linkedin"></i>
+                JDGopuansuy
+            </div>
+        </div>
+        <div class="connect-form">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Connect with Me</legend>
+
+                    <label for="fullname">Your Name:</label>
+                    <input type="text" name="fullname" id="fullname">
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" name="email" id="email">
+
+                    <label for="phone">Your Phone Number:</label>
+                    <input type="tel" name="phone" id="phone">
+
+                    <label for="msg">Message:</label>
+                    <textarea name="msg" id="msg"></textarea>
+
+                    <div class="checks">
+                        <input type="checkbox" name="copyemail" id="copyemail">
+                        <label>Send a copy to my email</label>
+                    </div>
+
+                    <div class="checks">
+                        <p>Preferred Method of Contact:</p>
+
+                        <input type="radio" name="contact" id="contactemail" value="email">
+                        <label for="contactemail">Email</label>
+
+                        <input type="radio" name="contact" id="contacttel" value="phone">
+                        <label for="contacttel">Phone Call</label>
+
+                        <input type="radio" name="contact" id="contacttext" value="text">
+                        <label for="contacttext">Text Message</label>
+                    </div>
+                    <div class="submit-btn">
+                        <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+                        <lord-icon src="https://cdn.lordicon.com/sdhhsgeg.json" trigger="hover"
+                            style="width:150px;height:150px"></lord-icon>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
