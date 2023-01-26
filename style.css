@@ -279,10 +279,14 @@ body {
     padding: 5px;
     margin: 5px;
 }
+.about .infos h3 {
+    text-align: center;
+    margin: 0 15px 0 15px;
+}
 /* PROJECT SECTION */
 .projects {
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-image: url(https://gifimage.net/wp-content/uploads/2018/05/space-background-gif-3.gif);
     background-size: cover;
     display: flex;
